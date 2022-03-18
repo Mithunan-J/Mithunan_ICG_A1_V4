@@ -20,7 +20,7 @@
 			"range": 100.0
 		}
 	],
-	"main_camera": "000c0e01-e862-b444-9226-e8c7dda8188e",
+	"main_camera": "d19ed3d0-3a94-c24d-8540-0b477c239ff9",
 	"objects": [
 		{
 			"children": [],
@@ -35,14 +35,14 @@
 					"enabled": true,
 					"far_plane": 1000.0,
 					"fov_radians": 1.5707963705062866,
-					"guid": "000c0e01-e862-b444-9226-e8c7dda8188e",
+					"guid": "d19ed3d0-3a94-c24d-8540-0b477c239ff9",
 					"near_plane": 0.10000000149011612,
 					"ortho_enabled": false,
 					"ortho_size": 10.0
 				},
 				"SimpleCameraControl": {
 					"enabled": true,
-					"guid": "c6ed4904-61d0-304f-9bcd-5fb07c3ffddb",
+					"guid": "f921c6e8-d274-3542-a7d8-66d383044490",
 					"mouse_sensitivity": {
 						"x": 0.5,
 						"y": 0.30000001192092896
@@ -55,7 +55,7 @@
 					"shift_mult": 2.0
 				}
 			},
-			"guid": "c126ff76-2e4a-9549-8de8-af98d51210c8",
+			"guid": "e7fa6933-8fa9-b946-a118-6560c6973b02",
 			"hide_in_inspector": false,
 			"name": "Main Camera",
 			"parent": "null",
@@ -88,7 +88,7 @@
 								"y": 50.0,
 								"z": 1.0
 							},
-							"guid": "ef0fcc82-b52f-044c-820b-e94510db0735",
+							"guid": "5b2d0abb-a557-944f-8135-67a939012ac1",
 							"position": {
 								"x": 0.0,
 								"y": 0.0,
@@ -109,7 +109,7 @@
 					],
 					"enabled": true,
 					"group": 1,
-					"guid": "aa4e27dd-c6f5-cd49-9d39-f236bfbb7a43",
+					"guid": "688534be-cfda-a14a-a54b-0f6b0f9d4a63",
 					"linear_damping": 0.0,
 					"mask": -1,
 					"mass": 1.0,
@@ -117,12 +117,12 @@
 				},
 				"RenderComponent": {
 					"enabled": true,
-					"guid": "ccaf8ed1-41b3-bd46-8327-ff241daea31d",
-					"material": "ab90487c-07f0-5e44-9388-5ab142648a2b",
-					"mesh": "c6c4e90c-2b0f-3a49-b32a-4dbc6a3639b1"
+					"guid": "677bc5c8-4da9-ec4a-9a12-b596bf39175a",
+					"material": "34f69434-5213-d644-b901-810d5099d33f",
+					"mesh": "f9e84bc0-2b87-494e-8ec3-8b0f18981518"
 				}
 			},
-			"guid": "eb7dab58-fcf0-a142-bc94-478e4d52a456",
+			"guid": "5f734568-801e-b043-9d74-8f06c0219d9f",
 			"hide_in_inspector": false,
 			"name": "Plane",
 			"parent": "null",
@@ -146,7 +146,7 @@
 		{
 			"children": [],
 			"components": null,
-			"guid": "fbefc2ac-51ac-8d47-b69a-d6e19f9a9261",
+			"guid": "68301282-d902-1043-b413-8f947bdda145",
 			"hide_in_inspector": false,
 			"name": "Demo Parent",
 			"parent": "null",
@@ -174,18 +174,18 @@
 					"components": {
 						"JumpBehaviour": {
 							"enabled": true,
-							"guid": "43d464a7-b2f6-2440-a07b-a2e58180cecd",
+							"guid": "82aca17d-4013-2e45-85e1-a0428be0ddce",
 							"impulse": 10.0
 						},
 						"RenderComponent": {
 							"enabled": true,
-							"guid": "ed5e9c8a-9da5-d248-ae4c-cf2339c15802",
-							"material": "914bfb5f-2def-5947-bb93-32a53e49c730",
-							"mesh": "089072c7-9f5f-394c-9d41-1cc776518c21"
+							"guid": "304f2817-f811-1144-b2a0-6c3d37f493e5",
+							"material": "f7d1b35d-a9a2-5a44-91a1-40b9a33e4acf",
+							"mesh": "c6d0d926-09f6-b64b-b18b-acb512b064b4"
 						},
 						"RotatingBehaviour": {
 							"enabled": true,
-							"guid": "70c26648-d811-8646-beb0-8af689f38b86",
+							"guid": "474c4bd2-daf3-1048-9996-554bbaa3852e",
 							"speed": {
 								"x": 90.0,
 								"y": 0.0,
@@ -194,14 +194,14 @@
 						},
 						"TestComponent": {
 							"enabled": true,
-							"guid": "a123e6fb-625f-7440-9fec-98be67be2af2",
+							"guid": "53579783-d541-754c-ae90-8b7144a183c8",
 							"test": 10.0
 						}
 					},
-					"guid": "92f14497-112c-b340-a79f-6eabc0c732ba",
+					"guid": "65bcd99f-4ec6-b748-b53c-e2f8227d9004",
 					"hide_in_inspector": false,
 					"name": "King Monkey",
-					"parent": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+					"parent": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 					"position": {
 						"x": 1.5,
 						"y": 0.0,
@@ -224,13 +224,13 @@
 					"components": {
 						"RenderComponent": {
 							"enabled": true,
-							"guid": "21c6b686-6c8c-b54d-b4bf-4d6e11ea9333",
-							"material": "cfdd06c4-a3df-e242-a711-30119a75c36a",
-							"mesh": "6223ad6f-6a19-9c41-aaa9-a1fb380c149d"
+							"guid": "e658d6bd-fa50-e84b-b4dc-977efdeddbcd",
+							"material": "92bbcb9a-94bf-0941-9b21-07df7f210923",
+							"mesh": "c0c727f6-0834-6543-aef5-dba8025a0eeb"
 						},
 						"RotatingBehaviour": {
 							"enabled": true,
-							"guid": "1af9e5fd-3af8-4741-bafa-33842e3ee220",
+							"guid": "a0059694-b79b-9e41-91be-d18017b0a718",
 							"speed": {
 								"x": 0.0,
 								"y": 0.0,
@@ -239,14 +239,14 @@
 						},
 						"TestComponent": {
 							"enabled": true,
-							"guid": "48231ade-325a-7c46-8fe6-64f1abb9413b",
+							"guid": "d3eefc83-952a-984e-ae1d-9c96a617459f",
 							"test": 10.0
 						}
 					},
-					"guid": "f161ef01-a557-5f47-93bd-69e8de319291",
+					"guid": "32faf9de-a097-d44a-8924-15f7e18b028b",
 					"hide_in_inspector": false,
 					"name": "Left Pillar",
-					"parent": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+					"parent": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 					"position": {
 						"x": 1.5,
 						"y": 2.700000047683716,
@@ -269,13 +269,13 @@
 					"components": {
 						"RenderComponent": {
 							"enabled": true,
-							"guid": "c16ccc3b-ffd6-fd40-a6c2-97d725ff1723",
-							"material": "cfdd06c4-a3df-e242-a711-30119a75c36a",
-							"mesh": "779005e3-48c5-e34e-b69c-47006bf5497e"
+							"guid": "43389a5e-c666-2641-a6d1-32ee31364ef3",
+							"material": "92bbcb9a-94bf-0941-9b21-07df7f210923",
+							"mesh": "77707e46-ab83-834f-b7d6-26220649becf"
 						},
 						"RotatingBehaviour": {
 							"enabled": true,
-							"guid": "678d2dc6-baf4-174b-a02a-378a2e4aebe7",
+							"guid": "5b51d4d2-e09e-de43-b8a6-250bafb5cbad",
 							"speed": {
 								"x": 0.0,
 								"y": 0.0,
@@ -284,14 +284,14 @@
 						},
 						"TestComponent": {
 							"enabled": true,
-							"guid": "653e120c-aac1-ae40-90a7-c3f94c44b9b3",
+							"guid": "0ffe2c4f-58a3-3145-8cd5-10f6ec8dbf6c",
 							"test": 10.0
 						}
 					},
-					"guid": "609dda54-9934-a340-a5b1-e400efd99a02",
+					"guid": "9364a999-742d-2446-ad26-f771e3e04e7c",
 					"hide_in_inspector": false,
 					"name": "Right Pillar",
-					"parent": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+					"parent": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 					"position": {
 						"x": 1.5,
 						"y": -2.700000047683716,
@@ -314,13 +314,13 @@
 					"components": {
 						"RenderComponent": {
 							"enabled": true,
-							"guid": "6c0b2063-374b-4f4c-ab19-c22ed3558f2c",
-							"material": "f4115c38-47f9-eb4c-9310-0ed787469cea",
-							"mesh": "4df67448-0a62-834d-84f5-e06752bee0ee"
+							"guid": "5838711b-d2c2-ef4d-ae9a-2cf2933d92c9",
+							"material": "a9b4da7a-cb67-6541-a8a0-25eb5f7b1a3c",
+							"mesh": "d012a237-fff8-1f43-89d2-83888aacac8c"
 						},
 						"RotatingBehaviour": {
 							"enabled": true,
-							"guid": "e0acc66d-7a81-5147-940c-982299380037",
+							"guid": "edc87eea-5a6f-6649-ba68-ce0078045a31",
 							"speed": {
 								"x": 0.0,
 								"y": 0.0,
@@ -329,14 +329,14 @@
 						},
 						"TestComponent": {
 							"enabled": true,
-							"guid": "62322e34-6579-314e-9d8c-1fed51f768bf",
+							"guid": "0275e6a7-c903-f14c-a9d5-4b01ba8bb97f",
 							"test": 10.0
 						}
 					},
-					"guid": "c15876c8-24e3-c745-82e3-5f4d493f0429",
+					"guid": "cac4ddc6-1676-194e-bb95-f4951b999e5f",
 					"hide_in_inspector": false,
 					"name": "Left Flame",
-					"parent": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+					"parent": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 					"position": {
 						"x": 1.5,
 						"y": 2.700000047683716,
@@ -359,13 +359,13 @@
 					"components": {
 						"RenderComponent": {
 							"enabled": true,
-							"guid": "f3743417-4526-864f-ab5d-91d1b7f2c959",
-							"material": "f4115c38-47f9-eb4c-9310-0ed787469cea",
-							"mesh": "4df67448-0a62-834d-84f5-e06752bee0ee"
+							"guid": "f219c779-18f6-e646-9197-30492b8a5d5b",
+							"material": "a9b4da7a-cb67-6541-a8a0-25eb5f7b1a3c",
+							"mesh": "d012a237-fff8-1f43-89d2-83888aacac8c"
 						},
 						"RotatingBehaviour": {
 							"enabled": true,
-							"guid": "82d10dc1-5248-7942-98a1-0e368cf3d7a7",
+							"guid": "43669e4a-2470-0044-849c-388ebc0d175b",
 							"speed": {
 								"x": 0.0,
 								"y": 0.0,
@@ -374,14 +374,14 @@
 						},
 						"TestComponent": {
 							"enabled": true,
-							"guid": "f63ce72b-ae1e-414e-9c1c-1c639332da39",
+							"guid": "111e50cd-59db-cc4c-83bc-716387bf6f87",
 							"test": 10.0
 						}
 					},
-					"guid": "024cccb4-869d-9745-a636-7ac07dc17027",
+					"guid": "64354a5d-0e75-a246-8f3f-33c130049010",
 					"hide_in_inspector": false,
 					"name": "Right Flame",
-					"parent": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+					"parent": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 					"position": {
 						"x": 1.5,
 						"y": -2.700000047683716,
@@ -401,7 +401,7 @@
 				}
 			],
 			"components": null,
-			"guid": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+			"guid": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 			"hide_in_inspector": false,
 			"name": "Show Floor",
 			"parent": "null",
@@ -427,18 +427,18 @@
 			"components": {
 				"JumpBehaviour": {
 					"enabled": true,
-					"guid": "43d464a7-b2f6-2440-a07b-a2e58180cecd",
+					"guid": "82aca17d-4013-2e45-85e1-a0428be0ddce",
 					"impulse": 10.0
 				},
 				"RenderComponent": {
 					"enabled": true,
-					"guid": "ed5e9c8a-9da5-d248-ae4c-cf2339c15802",
-					"material": "914bfb5f-2def-5947-bb93-32a53e49c730",
-					"mesh": "089072c7-9f5f-394c-9d41-1cc776518c21"
+					"guid": "304f2817-f811-1144-b2a0-6c3d37f493e5",
+					"material": "f7d1b35d-a9a2-5a44-91a1-40b9a33e4acf",
+					"mesh": "c6d0d926-09f6-b64b-b18b-acb512b064b4"
 				},
 				"RotatingBehaviour": {
 					"enabled": true,
-					"guid": "70c26648-d811-8646-beb0-8af689f38b86",
+					"guid": "474c4bd2-daf3-1048-9996-554bbaa3852e",
 					"speed": {
 						"x": 90.0,
 						"y": 0.0,
@@ -447,14 +447,14 @@
 				},
 				"TestComponent": {
 					"enabled": true,
-					"guid": "a123e6fb-625f-7440-9fec-98be67be2af2",
+					"guid": "53579783-d541-754c-ae90-8b7144a183c8",
 					"test": 10.0
 				}
 			},
-			"guid": "92f14497-112c-b340-a79f-6eabc0c732ba",
+			"guid": "65bcd99f-4ec6-b748-b53c-e2f8227d9004",
 			"hide_in_inspector": false,
 			"name": "King Monkey",
-			"parent": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+			"parent": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 			"position": {
 				"x": 1.5,
 				"y": 0.0,
@@ -477,13 +477,13 @@
 			"components": {
 				"RenderComponent": {
 					"enabled": true,
-					"guid": "21c6b686-6c8c-b54d-b4bf-4d6e11ea9333",
-					"material": "cfdd06c4-a3df-e242-a711-30119a75c36a",
-					"mesh": "6223ad6f-6a19-9c41-aaa9-a1fb380c149d"
+					"guid": "e658d6bd-fa50-e84b-b4dc-977efdeddbcd",
+					"material": "92bbcb9a-94bf-0941-9b21-07df7f210923",
+					"mesh": "c0c727f6-0834-6543-aef5-dba8025a0eeb"
 				},
 				"RotatingBehaviour": {
 					"enabled": true,
-					"guid": "1af9e5fd-3af8-4741-bafa-33842e3ee220",
+					"guid": "a0059694-b79b-9e41-91be-d18017b0a718",
 					"speed": {
 						"x": 0.0,
 						"y": 0.0,
@@ -492,14 +492,14 @@
 				},
 				"TestComponent": {
 					"enabled": true,
-					"guid": "48231ade-325a-7c46-8fe6-64f1abb9413b",
+					"guid": "d3eefc83-952a-984e-ae1d-9c96a617459f",
 					"test": 10.0
 				}
 			},
-			"guid": "f161ef01-a557-5f47-93bd-69e8de319291",
+			"guid": "32faf9de-a097-d44a-8924-15f7e18b028b",
 			"hide_in_inspector": false,
 			"name": "Left Pillar",
-			"parent": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+			"parent": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 			"position": {
 				"x": 1.5,
 				"y": 2.700000047683716,
@@ -522,13 +522,13 @@
 			"components": {
 				"RenderComponent": {
 					"enabled": true,
-					"guid": "c16ccc3b-ffd6-fd40-a6c2-97d725ff1723",
-					"material": "cfdd06c4-a3df-e242-a711-30119a75c36a",
-					"mesh": "779005e3-48c5-e34e-b69c-47006bf5497e"
+					"guid": "43389a5e-c666-2641-a6d1-32ee31364ef3",
+					"material": "92bbcb9a-94bf-0941-9b21-07df7f210923",
+					"mesh": "77707e46-ab83-834f-b7d6-26220649becf"
 				},
 				"RotatingBehaviour": {
 					"enabled": true,
-					"guid": "678d2dc6-baf4-174b-a02a-378a2e4aebe7",
+					"guid": "5b51d4d2-e09e-de43-b8a6-250bafb5cbad",
 					"speed": {
 						"x": 0.0,
 						"y": 0.0,
@@ -537,14 +537,14 @@
 				},
 				"TestComponent": {
 					"enabled": true,
-					"guid": "653e120c-aac1-ae40-90a7-c3f94c44b9b3",
+					"guid": "0ffe2c4f-58a3-3145-8cd5-10f6ec8dbf6c",
 					"test": 10.0
 				}
 			},
-			"guid": "609dda54-9934-a340-a5b1-e400efd99a02",
+			"guid": "9364a999-742d-2446-ad26-f771e3e04e7c",
 			"hide_in_inspector": false,
 			"name": "Right Pillar",
-			"parent": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+			"parent": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 			"position": {
 				"x": 1.5,
 				"y": -2.700000047683716,
@@ -567,13 +567,13 @@
 			"components": {
 				"RenderComponent": {
 					"enabled": true,
-					"guid": "6c0b2063-374b-4f4c-ab19-c22ed3558f2c",
-					"material": "f4115c38-47f9-eb4c-9310-0ed787469cea",
-					"mesh": "4df67448-0a62-834d-84f5-e06752bee0ee"
+					"guid": "5838711b-d2c2-ef4d-ae9a-2cf2933d92c9",
+					"material": "a9b4da7a-cb67-6541-a8a0-25eb5f7b1a3c",
+					"mesh": "d012a237-fff8-1f43-89d2-83888aacac8c"
 				},
 				"RotatingBehaviour": {
 					"enabled": true,
-					"guid": "e0acc66d-7a81-5147-940c-982299380037",
+					"guid": "edc87eea-5a6f-6649-ba68-ce0078045a31",
 					"speed": {
 						"x": 0.0,
 						"y": 0.0,
@@ -582,14 +582,14 @@
 				},
 				"TestComponent": {
 					"enabled": true,
-					"guid": "62322e34-6579-314e-9d8c-1fed51f768bf",
+					"guid": "0275e6a7-c903-f14c-a9d5-4b01ba8bb97f",
 					"test": 10.0
 				}
 			},
-			"guid": "c15876c8-24e3-c745-82e3-5f4d493f0429",
+			"guid": "cac4ddc6-1676-194e-bb95-f4951b999e5f",
 			"hide_in_inspector": false,
 			"name": "Left Flame",
-			"parent": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+			"parent": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 			"position": {
 				"x": 1.5,
 				"y": 2.700000047683716,
@@ -612,13 +612,13 @@
 			"components": {
 				"RenderComponent": {
 					"enabled": true,
-					"guid": "f3743417-4526-864f-ab5d-91d1b7f2c959",
-					"material": "f4115c38-47f9-eb4c-9310-0ed787469cea",
-					"mesh": "4df67448-0a62-834d-84f5-e06752bee0ee"
+					"guid": "f219c779-18f6-e646-9197-30492b8a5d5b",
+					"material": "a9b4da7a-cb67-6541-a8a0-25eb5f7b1a3c",
+					"mesh": "d012a237-fff8-1f43-89d2-83888aacac8c"
 				},
 				"RotatingBehaviour": {
 					"enabled": true,
-					"guid": "82d10dc1-5248-7942-98a1-0e368cf3d7a7",
+					"guid": "43669e4a-2470-0044-849c-388ebc0d175b",
 					"speed": {
 						"x": 0.0,
 						"y": 0.0,
@@ -627,14 +627,14 @@
 				},
 				"TestComponent": {
 					"enabled": true,
-					"guid": "f63ce72b-ae1e-414e-9c1c-1c639332da39",
+					"guid": "111e50cd-59db-cc4c-83bc-716387bf6f87",
 					"test": 10.0
 				}
 			},
-			"guid": "024cccb4-869d-9745-a636-7ac07dc17027",
+			"guid": "64354a5d-0e75-a246-8f3f-33c130049010",
 			"hide_in_inspector": false,
 			"name": "Right Flame",
-			"parent": "555e69f2-e718-1d48-b9e6-c7f6bd465a8b",
+			"parent": "21ac40a8-f5be-814d-97dc-1d38e9584599",
 			"position": {
 				"x": 1.5,
 				"y": -2.700000047683716,
@@ -658,7 +658,7 @@
 				"Gameplay::Physics::TriggerVolume": {
 					"colliders": [
 						{
-							"guid": "185336a2-8c44-3f4e-ad54-420abdd58ff5",
+							"guid": "1dfee72f-ffe1-9f4c-a1c1-b72629ca1129",
 							"half_extents": {
 								"x": 3.0,
 								"y": 3.0,
@@ -684,15 +684,15 @@
 					],
 					"enabled": true,
 					"group": 1,
-					"guid": "27b3fdee-b6e5-b940-8a3f-e1d987a05f5c",
+					"guid": "961bca32-d655-0145-b729-2d069dcebfeb",
 					"mask": -1
 				},
 				"TriggerVolumeEnterBehaviour": {
 					"enabled": true,
-					"guid": "343ba1e7-b753-7e4a-9c86-4588fd15f18d"
+					"guid": "5730c637-edcf-9c45-89ba-97cf8742188d"
 				}
 			},
-			"guid": "97f1cb04-1d24-e941-b695-251e27210bcc",
+			"guid": "e8544ad7-0f64-5240-8b87-60c537a5cd59",
 			"hide_in_inspector": false,
 			"name": "Trigger",
 			"parent": "null",
